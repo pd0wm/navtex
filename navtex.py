@@ -1,6 +1,6 @@
 from collections import defaultdict
-ALPHABET_LTRS = defaultdict(lambda: '???')
-ALPHABET_FIGS = defaultdict(lambda: '???')
+ALPHABET_LTRS = defaultdict(lambda: '_')
+ALPHABET_FIGS = defaultdict(lambda: '_')
 ALPHABET_LTRS.update({
     0x0f: "[alpha]",
     0x17: "J",
